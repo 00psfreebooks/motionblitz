@@ -1,0 +1,86 @@
+/* reset default styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+	
+/* set font family and colors */
+body {
+	display: flex;
+	align-items: center; /* center child elements vertically */
+	justify-content: center; /* center child elements horizontally */
+	height: 100vh; /* set height of the body to the full viewport height */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #333;
+	background-color: #f8f8f8;
+}
+	
+.container {
+	width: 75%;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: 700;
+	color: #444;
+	text-shadow: 2px 2px #eee;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #555;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+	font-size: 18px;
+	color: #333;
+}
+
+/* align radio buttons with label text */
+input[type="radio"] {
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+}
+
+label[for="workout-plan-select"] {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+button {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #444;
+}

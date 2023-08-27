@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MotionBlitz</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <div class="container">
+                <h1>MotionBlitz</h1>
+                <form>
+                        <label for="start-date">Start Date:</label>
+                        <input type="date" id="start-date" name="start-date" required><br><br>
+                        <label for="workout-time">Workout Time:</label>
+                        <input type="time" id="workout-time" name="workout-time" required><br><br>
+                        
+                        <label for="workout-plan">Workout Plan:</label><br>
+                        
+                        <input type="radio" id="workout-plan" name="workout-plan" value="HTK Bodywight" required>
+                        <label for="workout-plan-select">HTK Bodywight</label><br><br>
+                        
+                        <input type="radio" id="workout-plan" name="workout-plan" value="HTK Elite Operator" required>
+                        <label for="workout-plan-select">HTK Elite Operator</label><br><br>
+                        
+                        <input type="radio" id="workout-plan" name="workout-plan" value="HTK Tactical Monster" required>
+                        <label for="workout-plan-select">HTK Tactical Monster</label><br><br>
+                        
+                        <input type="radio" id="workout-plan" name="workout-plan" value="HTK Built Diff Home" required>
+                        <label for="workout-plan-select">HTK Built Diff Home</label><br><br>
+                        
+                        <input type="radio" id="workout-plan" name="workout-plan" value="HTK Built Diff Gym" required>
+                        <label for="workout-plan-select">HTK Built Diff Gym</label><br><br>
+                        
+                        <button type="button" id="generate-btn">Generate</button>
+                        <button type="button" id="clear-btn">Clear</button>
+                </form>
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+</html>
