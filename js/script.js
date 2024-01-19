@@ -339,6 +339,19 @@ const built_diff_gym_links = [
     "https://drive.google.com/file/d/1omXm7L5gv7M0JblibwQg0MQBmQB7hydW/view?usp=share_link",
 ];
 
+const general_muscle_links = [
+  "https://drive.google.com/file/d/1w_6K4vKjdBIYcMqV4mSos8kpuiwN0Ga_/view?usp=drive_link",
+  "https://drive.google.com/file/d/1h0POFSgPF_5N4mwT5RSbrzrhzuX5cVvH/view?usp=drive_link",
+  "https://drive.google.com/file/d/1XKY-QDyfEIG6AZdiUBlrZqZu9XPFZpKi/view?usp=drive_link",
+  "https://drive.google.com/file/d/1C1N8Rxl53NkT3VNLPL16W7dItU3qx2f6/view?usp=drive_link",
+  "https://drive.google.com/file/d/12-Z7XM3GAzPuD5oyJNPFggRrr47ExTTJ/view?usp=drive_link",
+  "https://drive.google.com/file/d/1MwhzelQZTgq7AIoc84OGZatBVaETEXS4/view?usp=drive_link",
+  "https://drive.google.com/file/d/1v3S0HVv5uX6-kaKW09d0Mg0-GEBeKnJV/view?usp=drive_link",
+  "https://drive.google.com/file/d/1XKY-QDyfEIG6AZdiUBlrZqZu9XPFZpKi/view?usp=drive_link",
+  "https://drive.google.com/file/d/1oc9X-Cbt2ReX2Ja3kwukOQUfdBVjJaQ_/view?usp=drive_link",
+  "https://drive.google.com/file/d/1LzHKMpCOpZaRiLvW4b-tHRVsaDkMATTG/view?usp=drive_link",
+];
+
 // Get the form elements
 const form = document.querySelector('form');
 
@@ -375,6 +388,8 @@ function generateICal() {
     links = built_diff_home_links;
   } else if (workoutPlan == "HTK Built Diff Gym") {
     links = built_diff_gym_links;
+  } else if (workoutPlan == "General Muscle") {
+    links = general_muscle_links;
   }
 
   // Create the iCal file
